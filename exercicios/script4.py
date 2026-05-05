@@ -1,4 +1,4 @@
-arquivo = open("Dados.txt" , "r")
+arquivo = open("dados.txt", "r")
 
 conteudo = arquivo.readline()
 

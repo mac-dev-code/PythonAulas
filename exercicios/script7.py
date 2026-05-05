@@ -1,4 +1,4 @@
-arquivo = open('dados.txt','r')
+arquivo = open('dados.txt', 'r')
 
 conteudo = arquivo.read()
 print("Todo o conteudo do arquivo")
@@ -10,7 +10,7 @@ print(repr(conteudo_releitura), '\n')
 
 arquivo.close()
 
-arquivo_reaberto = open('dados.txt','r')
+arquivo_reaberto = open('dados.txt', 'r')
 
 conteudo_reaberto = arquivo_reaberto.read()
 print("todo o conteudo do arquivo novamente")
